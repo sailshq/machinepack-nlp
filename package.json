@@ -1,0 +1,27 @@
+{
+  "name": "machinepack-nlp",
+  "version": "0.1.0",
+  "description": "Natural language processing (NLP) in Node.js.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Natural Language",
+    "machines",
+    "machinepack"
+  ],
+  "author": "mikermcneil",
+  "license": "MIT",
+  "dependencies":{
+    "machine": "^4.1.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "machinepack": {
+    "friendlyName": "Natural Language",
+    "extendedDescription": "This machinepack takes advantage of the excellent `node-natural` package by Chris Umbel, Rob Ellis, and Russell Mull.",
+    "machineDir": "machines/",
+    "machines": []
+  }
+}
