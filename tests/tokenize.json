@@ -5,6 +5,57 @@
       "todo": true,
       "using": {},
       "outcome": "success"
+    },
+    {
+      "using": {
+        "string": "Hello world!"
+      },
+      "outcome": "success",
+      "returns": [
+        "Hello",
+        "world",
+        "!"
+      ]
+    },
+    {
+      "using": {
+        "string": "Hello world."
+      },
+      "outcome": "success",
+      "returns": [
+        "Hello",
+        "world",
+        "."
+      ]
+    },
+    {
+      "using": {
+        "string": "Hello, world!"
+      },
+      "outcome": "success",
+      "returns": [
+        "Hello",
+        ",",
+        "world",
+        "!"
+      ]
+    },
+    {
+      "using": {
+        "string": "Where are we all going to, anyway?"
+      },
+      "outcome": "success",
+      "returns": [
+        "Where",
+        "are",
+        "we",
+        "all",
+        "going",
+        "to",
+        ",",
+        "anyway",
+        "?"
+      ]
     }
   ]
 }
