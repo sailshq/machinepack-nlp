@@ -5,6 +5,38 @@
       "todo": true,
       "using": {},
       "outcome": "success"
+    },
+    {
+      "using": {
+        "a": "kitten",
+        "b": "sittin"
+      },
+      "outcome": "success",
+      "returns": "2"
+    },
+    {
+      "using": {
+        "a": "kitten",
+        "b": "wtf"
+      },
+      "outcome": "success",
+      "returns": "5"
+    },
+    {
+      "using": {
+        "a": "kitten",
+        "b": "super different look how different"
+      },
+      "outcome": "success",
+      "returns": "30"
+    },
+    {
+      "using": {
+        "a": "kitten",
+        "b": "kitten"
+      },
+      "outcome": "success",
+      "returns": "0"
     }
   ]
 }
