@@ -21,10 +21,10 @@ module.exports = {
   moreInfoUrl: 'http://en.wikipedia.org/wiki/Levenshtein_distance',
 
 
-  cacheable: false,
+  cacheable: true,
 
 
-  sync: false,
+  sync: true,
 
 
   inputs: {
@@ -47,7 +47,7 @@ module.exports = {
   exits: {
 
     success: {
-      description: 'Done.',
+      variableName: 'levenshteinDistance',
       example: 2
     }
 

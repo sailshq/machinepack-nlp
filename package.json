@@ -24,12 +24,13 @@
     "extendedDescription": "This machinepack takes advantage of the excellent `node-natural` package by Chris Umbel, Rob Ellis, and Russell Mull.",
     "machineDir": "machines/",
     "machines": [
-      "levenshtein"
+      "levenshtein",
+      "tokenize"
     ],
     "testsUrl": "https://travis-ci.org/"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:treelinehq/machinepack-nlp.git"
   }
 }
