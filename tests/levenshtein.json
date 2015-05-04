@@ -1,0 +1,10 @@
+{
+  "machine": "levenshtein",
+  "expectations": [
+    {
+      "todo": true,
+      "using": {},
+      "outcome": "success"
+    }
+  ]
+}
