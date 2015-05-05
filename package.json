@@ -21,7 +21,7 @@
   },
   "machinepack": {
     "friendlyName": "Natural Language",
-    "extendedDescription": "This machinepack takes advantage of the excellent `node-natural` package by Chris Umbel, Rob Ellis, and Russell Mull.",
+    "extendedDescription": "This machinepack takes advantage of the excellent `natural` package on NPM by Chris Umbel, Rob Ellis, and Russell Mull.",
     "machineDir": "machines/",
     "machines": [
       "levenshtein",
