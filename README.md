@@ -8,7 +8,7 @@
 Natural language processing (NLP) in Node.js.
 
 
-## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-nlp.svg)](http://badge.fury.io/js/machinepack-nlp) [![Build Status](https://travis-ci.org/mikermcneil/machinepack-nlp.png?branch=master)](https://travis-ci.org/mikermcneil/machinepack-nlp)
+## Installation &nbsp; [![NPM version](https://badge.fury.io/js/machinepack-nlp.svg)](http://badge.fury.io/js/machinepack-nlp) [![Build Status](https://travis-ci.org/treelinehq/machinepack-nlp.png?branch=master)](https://travis-ci.org/treelinehq/machinepack-nlp)
 
 ```sh
 $ npm install machinepack-nlp
@@ -26,5 +26,5 @@ Learn more at <a href="http://node-machine.org/implementing/FAQ" title="Machine 
 
 ## License
 
-MIT &copy; 2015 mikermcneil and contributors
+MIT &copy; 2015 Mike McNeil and contributors
 
