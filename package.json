@@ -25,7 +25,8 @@
     "machineDir": "machines/",
     "machines": [
       "levenshtein",
-      "tokenize"
+      "tokenize",
+      "pluralize"
     ],
     "testsUrl": "https://travis-ci.org/"
   },
