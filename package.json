@@ -26,7 +26,8 @@
     "machines": [
       "levenshtein",
       "tokenize",
-      "pluralize"
+      "pluralize",
+      "singularize"
     ],
     "testsUrl": "https://travis-ci.org/"
   },

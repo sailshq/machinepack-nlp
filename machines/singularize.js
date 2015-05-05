@@ -1,10 +1,10 @@
 module.exports = {
 
 
-  friendlyName: 'Pluralize noun',
+  friendlyName: 'Singularize noun',
 
 
-  description: 'Determine the plural version of a singular noun.',
+  description: 'Determine the singular version of a plural noun.',
 
 
   cacheable: true,
@@ -20,8 +20,8 @@ module.exports = {
 
     noun: {
       friendlyName: 'Noun',
-      example: 'camera',
-      description: 'A singular noun.',
+      example: 'cameras',
+      description: 'A plural noun.',
       required: true
     }
 
@@ -31,8 +31,8 @@ module.exports = {
   exits: {
 
     success: {
-      variableName: 'plural',
-      example: 'cameras',
+      variableName: 'singular',
+      example: 'camera',
       description: 'Done.'
     },
 
@@ -41,7 +41,7 @@ module.exports = {
 
   fn: function (inputs, exits) {
     var NLP = require('natural');
-    var result = (new NLP.NounInflector()).pluralize(inputs.noun);
+    var result = (new NLP.NounInflector()).singularize(inputs.noun);
     return exits.success(result);
   },
 

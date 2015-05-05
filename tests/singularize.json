@@ -1,0 +1,66 @@
+{
+  "machine": "singularize",
+  "expectations": [
+    {
+      "todo": true,
+      "using": {},
+      "outcome": "success"
+    },
+    {
+      "using": {
+        "noun": "cacti"
+      },
+      "outcome": "success",
+      "returns": "cactus"
+    },
+    {
+      "using": {
+        "noun": "camerawomen"
+      },
+      "outcome": "success",
+      "returns": "camerawoman"
+    },
+    {
+      "using": {
+        "noun": "cameramen"
+      },
+      "outcome": "success",
+      "returns": "cameraman"
+    },
+    {
+      "using": {
+        "noun": "cameras"
+      },
+      "outcome": "success",
+      "returns": "camera"
+    },
+    {
+      "using": {
+        "noun": "moose"
+      },
+      "outcome": "success",
+      "returns": "moose"
+    },
+    {
+      "using": {
+        "noun": "radii"
+      },
+      "outcome": "success",
+      "returns": "radius"
+    },
+    {
+      "using": {
+        "noun": "legions"
+      },
+      "outcome": "success",
+      "returns": "legion"
+    },
+    {
+      "using": {
+        "noun": "impossibilities"
+      },
+      "outcome": "success",
+      "returns": "impossibility"
+    }
+  ]
+}
