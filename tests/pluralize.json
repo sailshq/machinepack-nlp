@@ -1,0 +1,45 @@
+{
+  "machine": "pluralize",
+  "expectations": [
+    {
+      "todo": true,
+      "using": {},
+      "outcome": "success"
+    },
+    {
+      "using": {
+        "noun": "camera"
+      },
+      "outcome": "success",
+      "returns": "cameras"
+    },
+    {
+      "using": {
+        "noun": "cameraman"
+      },
+      "outcome": "success",
+      "returns": "cameramen"
+    },
+    {
+      "using": {
+        "noun": "camerawoman"
+      },
+      "outcome": "success",
+      "returns": "camerawomen"
+    },
+    {
+      "using": {
+        "noun": "cameraperson"
+      },
+      "outcome": "success",
+      "returns": "camerapersons"
+    },
+    {
+      "using": {
+        "noun": "person"
+      },
+      "outcome": "success",
+      "returns": "people"
+    }
+  ]
+}

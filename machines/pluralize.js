@@ -1,10 +1,10 @@
 module.exports = {
 
 
-  friendlyName: 'Pluralize',
+  friendlyName: 'Pluralize noun',
 
 
-  description: 'Pluralize a string.',
+  description: 'Determine the plural version of a noun.',
 
 
   cacheable: true,
