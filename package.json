@@ -1,6 +1,6 @@
 {
   "name": "machinepack-nlp",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Natural language processing (NLP) in Node.js.",
   "scripts": {
     "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
