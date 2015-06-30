@@ -2,9 +2,12 @@
   "machine": "levenshtein",
   "expectations": [
     {
-      "todo": true,
-      "using": {},
-      "outcome": "success"
+      "using": {
+        "a": "kitten",
+        "b": "super different look how different"
+      },
+      "outcome": "success",
+      "returns": 30
     },
     {
       "using": {
@@ -12,23 +15,7 @@
         "b": "sittin"
       },
       "outcome": "success",
-      "returns": "2"
-    },
-    {
-      "using": {
-        "a": "kitten",
-        "b": "wtf"
-      },
-      "outcome": "success",
-      "returns": "5"
-    },
-    {
-      "using": {
-        "a": "kitten",
-        "b": "super different look how different"
-      },
-      "outcome": "success",
-      "returns": "30"
+      "returns": 2
     },
     {
       "using": {
@@ -36,7 +23,15 @@
         "b": "kitten"
       },
       "outcome": "success",
-      "returns": "0"
+      "returns": 0
+    },
+    {
+      "using": {
+        "a": "kitten",
+        "b": "kitteh"
+      },
+      "outcome": "success",
+      "returns": 1
     }
   ]
 }
